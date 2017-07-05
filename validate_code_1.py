@@ -75,5 +75,6 @@ if __name__ == '__main__':
 	image = Image.open(r'/Users/liufeng/Downloads/py/validate_pic/0.jpg')
 	image = pretreat_image(image)
 	image.show()
+	image.save(‘D:’)
 
 
