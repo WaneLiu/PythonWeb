@@ -46,7 +46,7 @@ def get_near_pixel(image, x, y, N):
 	if pix == image.getpixel((x+1, y)):
 		near_dots += 1
 	if near_dots < N:
-		return image.getpixel((x, y-1))
+		return image.getpixel((x, y-1))#clear_noise已经把最初四周改成白色
 	else:
 		return None
 
